@@ -36,6 +36,11 @@
       "description": "This identifies the Vendor specific implementation\r\n\r\n",
       "type": "string",
       "maxLength": 255
+    },
+    "from":{
+      "description": "it indicates from where the data transfer is being send\r\r\n",
+      "type":"string",
+      "maxLength": 255
     }
   },
   "required": [
