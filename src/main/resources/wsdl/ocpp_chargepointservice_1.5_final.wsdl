@@ -333,6 +333,7 @@ See: http://ev-services.net/ocpp/
           <s:element name="vendorId" type="s:string" minOccurs="1" maxOccurs="1" />
           <s:element name="messageId" type="s:string" minOccurs="0" maxOccurs="1" />
           <s:element name="data" type="s:string" minOccurs="0" maxOccurs="1" />
+          <s:element name="from" type="s:string" minOccurs="0" maxOccurs="1" />
         </s:sequence>
       </s:complexType>
 
